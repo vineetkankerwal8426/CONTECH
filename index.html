@@ -358,14 +358,52 @@
   </div>
 
   <script src="https://kit.fontawesome.com/99669fc608.js" crossorigin="anonymous"></script>
-  <script type="module" src="index.js"></script>
+
   <!-- <script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.489/build/spline-viewer.js"></script> -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
   <script src="tilt.js"></script>
   <script src="locomotive-scroll.min.js"></script>
+  <script>
+    const scroll = new LocomotiveScroll({
+      el: document.querySelector('[data-scroll-container]'),
+      smooth: true,
+      inertia: .5,
+      multiplier: .9,
+      touchMultiplier: .9
+    });
 
+    var eventpage = document.querySelector(".events");
+    document.querySelector("#navevents").addEventListener("click", scrolltoevents);
+    function scrolltoevents() {
+      scroll.scrollTo(eventpage);
+    }
+
+    var aboutpage = document.querySelector(".aboutsection");
+    document.querySelector("#navabout").addEventListener("click", scrolltoabout);
+    function scrolltoabout() {
+      scroll.scrollTo(aboutpage);
+    }
+
+    var newspage = document.querySelector(".news");
+    document.querySelector("#navnews").addEventListener("click", scrolltonews);
+    function scrolltonews() {
+      scroll.scrollTo(newspage);
+    }
+
+    var faqpage = document.querySelector(".faq");
+    document.querySelector("#navfaqs").addEventListener("click", scrolltofaq);
+    function scrolltofaq() {
+      scroll.scrollTo(faqpage);
+    }
+
+    var contactpage = document.querySelector(".contact");
+    document.querySelector("#navcontact").addEventListener("click", scrolltocontact);
+    function scrolltocontact() {
+      scroll.scrollTo(contactpage);
+    }
+  </script>
 </body>
 
 </html>
