@@ -917,6 +917,9 @@ button:hover .button-text {
   .blob2{
     width: 50%;
   }
+  .navbutton2 {
+    width:35vw;
+  }
 }
 
 @media(max-width:320px) {
@@ -1012,5 +1015,8 @@ button:hover .button-text {
   }
   .blob2{
     width: 50%;
+  }
+  .navbutton2 {
+    width:35vw;
   }
 }
