@@ -815,6 +815,12 @@ button:hover .button-text {
   .THEKANKERWAL{
     padding-bottom: 50px;
   }
+  .blob1{
+    width :50%;
+  }
+  .blob2{
+    width: 40%;
+  }
 }
 
 @media(max-width:575px) {
@@ -905,6 +911,12 @@ button:hover .button-text {
   .THEKANKERWAL{
     padding-bottom: 50px;
   }
+  .blob1{
+    width :60%;
+  }
+  .blob2{
+    width: 50%;
+  }
 }
 
 @media(max-width:320px) {
@@ -994,5 +1006,11 @@ button:hover .button-text {
   }
   .THEKANKERWAL{
     padding-bottom: 50px;
+  }
+  .blob1{
+    width :60%;
+  }
+  .blob2{
+    width: 50%;
   }
 }
