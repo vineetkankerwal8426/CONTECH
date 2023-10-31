@@ -812,6 +812,9 @@ button:hover .button-text {
   .accor {
     width: 85vw;
   }
+  .THEKANKERWAL{
+    padding-bottom: 50px;
+  }
 }
 
 @media(max-width:575px) {
@@ -899,6 +902,9 @@ button:hover .button-text {
   .samefonticons {
     font-size: 34px;
   }
+  .THEKANKERWAL{
+    padding-bottom: 50px;
+  }
 }
 
 @media(max-width:320px) {
@@ -985,5 +991,8 @@ button:hover .button-text {
 
   .samefonticons {
     font-size: 30px;
+  }
+  .THEKANKERWAL{
+    padding-bottom: 50px;
   }
 }
